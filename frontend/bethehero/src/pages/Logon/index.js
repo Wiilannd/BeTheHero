@@ -7,15 +7,15 @@ import './styles.css';
 import heroesImg from "../../assets/heroes.png";
 
 export default function Logon() {
-  return (
+   return (
     <div className="logon-container">
       <section className="form">
         <img src={logo} alt="logo" />
 
         <form>
-          <h1>Faça seu login</h1>
+          <h1>Faça o login</h1>
           <input 
-            placeholder="Sua ID"
+            placeholder="Sua ID..."
           />
 
           <button className="button" type="submit">Entrar</button>
